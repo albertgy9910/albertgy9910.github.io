@@ -2,24 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliated with UCSD Halıcıoğlu Data Science Institute</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: albert.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Albert (Geyang) Xu, a dedicated computer scientist with expertise in software development, machine learning, and data science. I have a Master's degree in Computer Science from the University of California, San Diego, where I developed a deep understanding of AI and machine learning techniques. I also hold a Bachelor's degree in Computer Science from the University of Liverpool, where I graduated in the top 3% of my class.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am a Research Assistant at the UCSD Halıcıoğlu Data Science Institute, where I work on developing frameworks for data quality and fairness in machine learning. My projects include building scalable cloud storage systems, optimizing logistics routes using AI, and developing educational platforms for algorithm visualization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My professional experience includes internships as a Software Engineer, where I developed backend services and real-time sensor data applications. I am passionate about creating solutions that are both efficient and impactful.
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or check out my [GitHub](https://github.com/albertgy9910) for more information about my academic projects and professional work.
+
+Outside of work, I enjoy photography and solving coding challenges. You can follow my photography and travel adventures on [Instagram](https://www.instagram.com/albert.x10?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr).
+
+
+You can reach me at the following:
+
+- **Phone**: 858-568-6771
+- **Email**: gexu@ucsd.edu
+- **Location**: La Jolla, CA

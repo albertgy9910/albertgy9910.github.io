@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - albertgy9910
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - albertgy9910/Train-Seat-Assignment-System
+  - albertgy9910/AlgoRoute
+  - albertgy9910/Algorithm-Visualization-Education-Website
+  - albertgy9910/SurfStore
