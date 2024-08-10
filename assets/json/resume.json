@@ -31,11 +31,7 @@
       "startDate": "2022-09-01",
       "endDate": "2024-03-01",
       "score": "3.88/4.0",
-      "courses": [
-        "Principles of Computer Operating Systems",
-        "Statistical NLP",
-        "Principles of Machine Learning"
-      ]
+      "courses": ["Principles of Computer Operating Systems", "Statistical NLP", "Principles of Machine Learning"]
     },
     {
       "institution": "University of Liverpool",
@@ -46,11 +42,7 @@
       "startDate": "2018-09-01",
       "endDate": "2022-06-01",
       "score": "3.93/4.0",
-      "courses": [
-        "Advanced Object Oriented C Languages",
-        "Software Engineering",
-        "Complexity of Algorithms"
-      ]
+      "courses": ["Advanced Object Oriented C Languages", "Software Engineering", "Complexity of Algorithms"]
     }
   ],
   "work": [
@@ -74,10 +66,7 @@
       "startDate": "2023-09-01",
       "endDate": "2024-06-01",
       "summary": "Developed and maintained the ITA workshop website using Django and React.",
-      "highlights": [
-        "Enhanced site performance and user experience for nearly 1,000 users.",
-        "Optimized database structure to prevent data loss."
-      ]
+      "highlights": ["Enhanced site performance and user experience for nearly 1,000 users.", "Optimized database structure to prevent data loss."]
     },
     {
       "name": "Citmit",
@@ -86,10 +75,7 @@
       "startDate": "2023-06-01",
       "endDate": "2023-09-01",
       "summary": "Developed backend services to automate the building permit application process.",
-      "highlights": [
-        "Reduced permit wait times from months to hours.",
-        "Implemented secure storage using Amazon S3."
-      ]
+      "highlights": ["Reduced permit wait times from months to hours.", "Implemented secure storage using Amazon S3."]
     },
     {
       "name": "Sensing IoT Group Ltd.",
@@ -98,49 +84,29 @@
       "startDate": "2022-06-01",
       "endDate": "2022-09-01",
       "summary": "Developed a full-stack Java application for real-time sensor data collection.",
-      "highlights": [
-        "Enhanced asynchronous communication using Java Spring Boot and Netty.",
-        "Achieved a 97% customer satisfaction rate."
-      ]
+      "highlights": ["Enhanced asynchronous communication using Java Spring Boot and Netty.", "Achieved a 97% customer satisfaction rate."]
     }
   ],
-  "awards": [
-  ],
-  "publications": [
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
       "name": "Software Development",
       "level": "Advanced",
       "icon": "",
-      "keywords": [
-        "Python",
-        "Java",
-        "Go",
-        "SQL",
-        "C/C++"
-      ]
+      "keywords": ["Python", "Java", "Go", "SQL", "C/C++"]
     },
     {
       "name": "Web Development",
       "level": "Intermediate",
       "icon": "",
-      "keywords": [
-        "Django",
-        "React",
-        "HTML/CSS",
-        "JavaScript"
-      ]
+      "keywords": ["Django", "React", "HTML/CSS", "JavaScript"]
     },
     {
       "name": "Data Science",
       "level": "Intermediate",
       "icon": "",
-      "keywords": [
-        "Machine Learning",
-        "Data Cleaning",
-        "Fairness in AI"
-      ]
+      "keywords": ["Machine Learning", "Data Cleaning", "Fairness in AI"]
     }
   ],
   "languages": [
@@ -159,21 +125,13 @@
     {
       "name": "Photography",
       "icon": "",
-      "keywords": [
-        "Landscape Photography",
-        "Portrait Photography"
-      ]
+      "keywords": ["Landscape Photography", "Portrait Photography"]
     },
     {
       "name": "Travel",
       "icon": "",
-      "keywords": [
-        "Cultural Exploration",
-        "Adventure Travel"
-      ]
+      "keywords": ["Cultural Exploration", "Adventure Travel"]
     }
   ],
-  "references": [
-
-  ]
+  "references": []
 }

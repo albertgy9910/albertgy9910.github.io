@@ -8,7 +8,7 @@ profile:
   align: right
   image: albert.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -24,7 +24,6 @@ My professional experience includes internships as a Software Engineer, where I 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or check out my [GitHub](https://github.com/albertgy9910) for more information about my academic projects and professional work.
 
 Outside of work, I enjoy photography and solving coding challenges. You can follow my photography and travel adventures on [Instagram](https://www.instagram.com/albert.x10?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr).
-
 
 You can reach me at the following:
 

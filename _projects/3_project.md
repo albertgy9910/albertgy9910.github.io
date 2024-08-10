@@ -15,4 +15,3 @@ This project focused on optimizing logistics routes by employing advanced algori
 - Performed Python-based experiments to identify optimal algorithms for improving supply chain route efficiency.
 - Utilized diverse algorithms like taboo, adaptive large neighborhood, ant colony, and genetic algorithm to achieve a 35% time reduction and 23% cost savings in route planning compared to single-algorithm applications.
 - Optimized routes with customers’ parameters like time windows, vehicle capacity, and vehicle transportation costs.
-

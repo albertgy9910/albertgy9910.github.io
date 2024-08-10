@@ -22,4 +22,3 @@ This project involved developing a neural network algorithms learning platform f
 <div class="caption text-center">
     AlgoViz is a neural network learning platform with rich features designed to enhance student understanding and engagement. The platform's architecture supports visualization and interaction, making it an effective tool for learning complex algorithms.
 </div>
-

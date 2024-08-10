@@ -31,4 +31,3 @@ This project involved the design and implementation of a Dropbox-like cloud-base
 <div class="caption">
     The system's architecture includes the implementation of RAFT protocol to ensure fault tolerance and improved error recovery.
 </div>
-
