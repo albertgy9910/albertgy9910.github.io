@@ -2,13 +2,13 @@
   "basics": {
     "name": "Albert (Geyang) Xu",
     "image": "",
-    "email": "albert991010@gmail.com",
+    "email": "albertxu1010@gmail.com",
     "phone": "858-568-6771",
     "url": "https://linkedin.com/in/albert-xu-a611a51bb",
-    "summary": "A passionate computer scientist with experience in software engineering, research, and web development.",
+    "summary": "Full-stack software engineer with hands-on experience in backend APIs, cloud deployment, and frontend frameworks. Proven ability to build scalable applications, automate workflows, and contribute to research on data quality in AI systems. Passionate about engineering elegant solutions to real-world problems.",
     "location": {
-      "address": "La Jolla",
-      "postalCode": "CA",
+      "address": "",
+      "postalCode": "",
       "city": "San Diego",
       "countryCode": "US",
       "region": "California"
@@ -28,10 +28,10 @@
       "url": "https://www.ucsd.edu/",
       "area": "Computer Science",
       "studyType": "Master of Science",
-      "startDate": "2022-09-01",
-      "endDate": "2024-03-01",
+      "startDate": "2022-09-23",
+      "endDate": "2024-03-23",
       "score": "3.88/4.0",
-      "courses": ["Principles of Computer Operating Systems", "Statistical NLP", "Principles of Machine Learning"]
+      "courses": ["Principles of Computer Operating Systems", "Statistical NLP", "Principles of Machine Learning", "Principles of Computer Architecture", "Principles of AI"]
     },
     {
       "institution": "University of Liverpool",
@@ -47,66 +47,66 @@
   ],
   "work": [
     {
-      "name": "UCSD Halıcıoğlu Data Science Institute",
-      "position": "Research Assistant",
-      "url": "https://datascience.ucsd.edu/",
-      "startDate": "2023-10-01",
+      "name": "4Pexonic Inc.",
+      "position": "Software Engineer",
+      "startDate": "2024-10-01",
       "endDate": "Present",
-      "summary": "Developed and implemented a framework for specifying and injecting complex data quality issues into datasets.",
+      "summary": "Developed large-scale project management web applications and optimized backend systems for performance and reliability.",
       "highlights": [
-        "Improved fairness and accuracy in machine learning models.",
-        "Executed experiments evaluating robustness of data cleaning tools.",
-        "Collaborated on the development of a declarative language for pattern specification."
+        "Built responsive UIs with Angular, reducing load times by 30%.",
+        "Integrated RESTful APIs with Ruby backends and PostgreSQL databases, cutting latency by 35%.",
+        "Streamlined SDLC using Agile, CI/CD, and Git, halving deployment time and reducing failures by 40%."
+      ]
+    },
+    {
+      "name": "Spesland",
+      "position": "Full-Stack Engineer",
+      "startDate": "2024-09-01",
+      "endDate": "2025-04-01",
+      "summary": "Led development of AI-driven government platform GovChat used in 200+ cities.",
+      "highlights": [
+        "Built Dockerized services using Node.js/Express, MongoDB, and Next.js, reducing setup time by 60%.",
+        "Integrated GPU-powered LLM microservices for city services, achieving 200ms average latency.",
+        "Implemented TLS termination with Nginx/Certbot and secure authentication, reaching 99.9% uptime."
       ]
     },
     {
       "name": "UCSD ECE Department",
       "position": "Web Developer",
-      "url": "https://ita.ucsd.edu",
-      "startDate": "2023-09-01",
+      "startDate": "2024-02-01",
       "endDate": "2024-06-01",
-      "summary": "Developed and maintained the ITA workshop website using Django and React.",
-      "highlights": ["Enhanced site performance and user experience for nearly 1,000 users.", "Optimized database structure to prevent data loss."]
+      "url": "https://ita.ucsd.edu",
+      "summary": "Maintained and improved the ITA workshop website using Django and React.",
+      "highlights": [
+        "Implemented caching and query optimization to cut load times by 35%.",
+        "Improved upload logic, reducing media upload speed by 20%.",
+        "Managed PostgreSQL and versioned S3 backups with multi-region replication."
+      ]
     },
     {
-      "name": "Citmit",
-      "position": "Software Engineer Intern",
-      "url": "",
-      "startDate": "2023-06-01",
-      "endDate": "2023-09-01",
-      "summary": "Developed backend services to automate the building permit application process.",
-      "highlights": ["Reduced permit wait times from months to hours.", "Implemented secure storage using Amazon S3."]
-    },
-    {
-      "name": "Sensing IoT Group Ltd.",
-      "position": "Software Engineer Intern",
-      "url": "",
-      "startDate": "2022-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Developed a full-stack Java application for real-time sensor data collection.",
-      "highlights": ["Enhanced asynchronous communication using Java Spring Boot and Netty.", "Achieved a 97% customer satisfaction rate."]
+      "name": "UCSD Halıcıoğlu Data Science Institute",
+      "position": "Research Engineer",
+      "startDate": "2023-10-01",
+      "endDate": "2024-09-01",
+      "url": "https://datascience.ucsd.edu/",
+      "summary": "Created tools to inject and analyze data quality issues in ML workflows.",
+      "highlights": [
+        "Improved model fairness by 15% and accuracy by 10% through error injection framework.",
+        "Executed robustness evaluations on data cleaning tools and ML models.",
+        "Enhanced bias injection precision using Z-score normalization, improving attack capability by 30%."
+      ]
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Software Development",
-      "level": "Advanced",
-      "icon": "",
-      "keywords": ["Python", "Java", "Go", "SQL", "C/C++"]
+      "name": "Programming Languages",
+      "keywords": ["Python", "Java", "Go", "SQL", "C/C++", "HTML/CSS", "JavaScript", "Rust", "Objective-C", "C#", "R", "Haskell"]
     },
     {
-      "name": "Web Development",
-      "level": "Intermediate",
-      "icon": "",
-      "keywords": ["Django", "React", "HTML/CSS", "JavaScript"]
-    },
-    {
-      "name": "Data Science",
-      "level": "Intermediate",
-      "icon": "",
-      "keywords": ["Machine Learning", "Data Cleaning", "Fairness in AI"]
+      "name": "Frameworks and Tools",
+      "keywords": ["Django", "React", "Git", "Docker", "AWS", "gRPC", "Matlab", "Flask", "Hadoop", "DynamoDB"]
     }
   ],
   "languages": [
@@ -132,6 +132,7 @@
       "icon": "",
       "keywords": ["Cultural Exploration", "Adventure Travel"]
     }
-  ],
-  "references": []
+  ],ß
+  "references": [],
+  "website": "https://albertgy9910.github.io"
 }
