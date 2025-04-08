@@ -27,6 +27,6 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu
 
 You can reach me at the following:
 
-- **Phone**: 858-568-6771  
-- **Email**: albertxu1010@gmail.com  
+- **Phone**: 858-568-6771
+- **Email**: albertxu1010@gmail.com
 - **Location**: San Diego, CA
