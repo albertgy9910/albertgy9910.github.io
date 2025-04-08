@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliated with UCSD Halıcıoğlu Data Science Institute</a>.
+subtitle: <a href='#'>Software Engineer | San Diego, CA</a>.
 
 profile:
   align: right
