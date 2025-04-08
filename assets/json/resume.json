@@ -55,6 +55,7 @@
     {
       "name": "4Pexonic Inc.",
       "position": "Software Engineer",
+      "url": "https://www.4pexonic.com/",
       "startDate": "2024-10-01",
       "endDate": "Present",
       "summary": "Developed large-scale project management web applications and optimized backend systems for performance and reliability.",
@@ -67,6 +68,7 @@
     {
       "name": "Spesland",
       "position": "Full-Stack Engineer",
+      "url": "https://www.spesland.com/",
       "startDate": "2024-09-01",
       "endDate": "2025-04-01",
       "summary": "Led development of AI-driven government platform GovChat used in 200+ cities.",
