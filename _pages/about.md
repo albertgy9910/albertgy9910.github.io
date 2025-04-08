@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Software Engineer | San Diego, CA</a>.
+subtitle: <a href='#'>Software Engineer | San Diego, CA</a>
 
 profile:
   align: right
