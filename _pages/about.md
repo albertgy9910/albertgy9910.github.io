@@ -15,18 +15,18 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang2) Xu, a dedicated computer scientist with expertise in software development, machine learning, and data science. I have a Master's degree in Computer Science from the University of California, San Diego, where I developed a deep understanding of AI and machine learning techniques. I also hold a Bachelor's degree in Computer Science from the University of Liverpool, where I graduated in the top 3% of my class.
+I am Albert (Geyang) Xu, a full-stack software engineer with experience in backend, web, and systems development. I hold a Master's degree in Computer Science from the University of California, San Diego (GPA: 3.88/4.0) and a Bachelor's degree in Computer Science from the University of Liverpool (GPA: 3.93/4.0, top 3%).
 
-Currently, I am a Research Assistant at the UCSD Halıcıoğlu Data Science Institute, where I work on developing frameworks for data quality and fairness in machine learning. My projects include building scalable cloud storage systems, optimizing logistics routes using AI, and developing educational platforms for algorithm visualization.
+Currently, I work at 4Pexonic Inc. in San Diego, where I build scalable project management applications using Angular, Ruby, and PostgreSQL. Previously, I contributed to the development of GovChat at Spesland, an AI-driven government platform deployed across 200+ cities, where I implemented real-time LLM microservices, secure authentication, and production-grade CI/CD workflows.
 
-My professional experience includes internships as a Software Engineer, where I developed backend services and real-time sensor data applications. I am passionate about creating solutions that are both efficient and impactful.
+Earlier roles include Web Developer at UCSD’s ECE Department, and Research Engineer at the Halıcıoğlu Data Science Institute, where I worked on data quality and fairness frameworks for machine learning systems.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or check out my [GitHub](https://github.com/albertgy9910) for more information about my academic projects and professional work.
+My tech stack includes Python, Java, Go, SQL, JavaScript, Django, React, Node.js, Docker, AWS, and gRPC. I’m passionate about delivering robust, high-performance systems and writing clean, maintainable code.
 
-Outside of work, I enjoy photography and solving coding challenges. You can follow my photography and travel adventures on [Instagram](https://www.instagram.com/albert.x10?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or explore my [GitHub](https://github.com/albertgy9910).
 
 You can reach me at the following:
 
-- **Phone**: 858-568-6771
-- **Email**: gexu@ucsd.edu
-- **Location**: La Jolla, CA
+- **Phone**: 858-568-6771  
+- **Email**: albertxu1010@gmail.com  
+- **Location**: San Diego, CA
