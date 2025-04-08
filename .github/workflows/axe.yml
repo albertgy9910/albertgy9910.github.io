@@ -1,18 +1,73 @@
-<file name=0 path=_pages/about.md> 
-I am Albert (Geyang) Xu, a software engineer with experience in full-stack development, research, and data systems. I received my M.S. in Computer Science from UC San Diego (GPA 3.88/4.0), and a B.S. in Computer Science from the University of Liverpool (GPA 3.93/4.0, top 3%).
+name: Axe accessibility testing
 
-Currently, I work as a Software Engineer at 4Pexonic Inc., where I develop large-scale project management platforms using Angular, Ruby, and PostgreSQL. Concurrently, I serve as a Full-Stack Engineer at Spesland, helping build GovChat, an AI-powered city service platform used in over 200 municipalities. My stack includes Node.js, Next.js, MongoDB, and Docker.
+on:
+  # if you want to run this on every push uncomment the following lines
+  # push:
+  #   branches:
+  #     - master
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - main
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL to be checked (e.g.: blog/)"
+        required: false
 
-Previously, I contributed as a Web Developer at the UCSD ECE Department and as a Research Engineer at the Halıcıoğlu Data Science Institute. There, I built frameworks for injecting data quality issues into machine learning datasets and optimizing server performance on Django-based platforms.
+env:
+  URL: ""
 
-My technical skills include Python, Java, Go, SQL, React, Docker, Django, and AWS. I’m passionate about solving impactful problems through robust engineering and research.
-
-You can find me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/), [GitHub](https://github.com/albertgy9910), or follow my photography on [Instagram](https://www.instagram.com/albert.x10?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr).
-</file>
-<file name=1 path=_data/navigation.yml>
-- title: "Resume"
-  url: /cv/
-</file>
-<file name=2 path=_pages/cv.md>
-[Download Resume (PDF)](/assets/files/GeyangXu_Resume.pdf)
-</file>
+jobs:
+  check:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          changes: |
+            {
+              "giscus.repo": "${{ github.repository }}",
+              "baseurl": ""
+            }
+      - name: Install and Build 🔧
+        run: |
+          pip3 install --upgrade jupyter
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Get Chromium version 🌐
+        # https://github.com/GoogleChromeLabs/chrome-for-testing?tab=readme-ov-file#other-api-endpoints
+        run: |
+          CHROMIUM_VERSION=$(wget -qO- https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE | cut -d. -f1)
+          echo "Chromium version: $CHROMIUM_VERSION"
+          echo "CHROMIUM_VERSION=$CHROMIUM_VERSION" >> $GITHUB_ENV
+      - name: Setup Chrome 🌐
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: ${{ env.CHROMIUM_VERSION }}
+      - name: Install chromedriver 🚗
+        run: |
+          npm install -g chromedriver@$CHROMIUM_VERSION
+      - name: Run axe 🪓
+        # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
+        run: |
+          npm install -g @axe-core/cli
+          npm install -g http-server
+          http-server _site/ &
+          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit

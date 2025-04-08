@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang) Xu, a dedicated computer scientist with expertise in software development, machine learning, and data science. I have a Master's degree in Computer Science from the University of California, San Diego, where I developed a deep understanding of AI and machine learning techniques. I also hold a Bachelor's degree in Computer Science from the University of Liverpool, where I graduated in the top 3% of my class.
+I am Albert (Geyang2) Xu, a dedicated computer scientist with expertise in software development, machine learning, and data science. I have a Master's degree in Computer Science from the University of California, San Diego, where I developed a deep understanding of AI and machine learning techniques. I also hold a Bachelor's degree in Computer Science from the University of Liverpool, where I graduated in the top 3% of my class.
 
 Currently, I am a Research Assistant at the UCSD Halıcıoğlu Data Science Institute, where I work on developing frameworks for data quality and fairness in machine learning. My projects include building scalable cloud storage systems, optimizing logistics routes using AI, and developing educational platforms for algorithm visualization.
 
