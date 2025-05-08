@@ -19,9 +19,9 @@ I am Albert (Geyang) Xu, a full-stack software engineer with experience in backe
 
 Currently, I work at 4Pexonic Inc. in San Diego, where I build scalable project management applications using Angular, Ruby, and PostgreSQL. Previously, I contributed to the development of GovChat at Spesland, an AI-driven government platform deployed across 200+ cities, where I implemented real-time LLM microservices, secure authentication, and production-grade CI/CD workflows.
 
-Earlier roles include Web Developer at UCSD’s ECE Department, and Research Engineer at the Halıcıoğlu Data Science Institute, where I worked on data quality and fairness frameworks for machine learning systems.
+Earlier roles include Web Developer at UCSD's ECE Department, and Research Engineer at the Halıcıoğlu Data Science Institute, where I worked on data quality and fairness frameworks for machine learning systems.
 
-My tech stack includes Python, Java, Go, SQL, JavaScript, Django, React, Node.js, Docker, AWS, and gRPC. I’m passionate about delivering robust, high-performance systems and writing clean, maintainable code.
+My tech stack includes Python, Java, Go, SQL, JavaScript, Django, React, Node.js, Docker, AWS, and gRPC. I'm passionate about delivering robust, high-performance systems and writing clean, maintainable code.
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or explore my [GitHub](https://github.com/albertgy9910).
 
