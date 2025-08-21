@@ -78,29 +78,16 @@
       ]
     },
     {
-      "name": "Spesland",
-      "position": "Full-Stack Engineer",
-      "url": "https://www.spesland.com/",
-      "startDate": "2024-09-01",
-      "endDate": "2025-04-01",
-      "summary": "Led development of AI-driven government platform GovChat used in 200+ cities.",
-      "highlights": [
-        "Built Dockerized services using Node.js/Express, MongoDB, and Next.js, reducing setup time by 60%.",
-        "Integrated GPU-powered LLM microservices for city services, achieving 200ms average latency.",
-        "Implemented TLS termination with Nginx/Certbot and secure authentication, reaching 99.9% uptime."
-      ]
-    },
-    {
       "name": "UCSD Halıcıoğlu Data Science Institute",
       "position": "Research Engineer",
       "startDate": "2023-10-01",
       "endDate": "2024-09-01",
       "url": "https://datascience.ucsd.edu/",
-      "summary": "Created tools to inject and analyze data quality issues in ML workflows.",
+      "summary": "Built a modular 'Injector' pipeline with beam-search pruning and Optuna Bayesian tuning, raising downstream model accuracy by 10% and fairness by 15%.",
       "highlights": [
-        "Improved model fairness by 15% and accuracy by 10% through error injection framework.",
-        "Executed robustness evaluations on data cleaning tools and ML models.",
-        "Enhanced bias injection precision using Z-score normalization, improving attack capability by 30%."
+        "Co-authored 'Stress-Testing ML Pipelines with Adversarial Data Corruption,' VLDB 2025; introduced the first adversarial benchmark for data-quality robustness.",
+        "Ran comprehensive Inject → Clean → Retrain benchmarks on missing-value, selection-bias, and outlier scenarios while optimizing Z-score standardization for skewed data—boosting attack coverage 30%.",
+        "Developed and implemented a framework for specifying and injecting complex data quality issues into datasets, using Python to address data biases and improve fairness and accuracy in machine learning models."
       ]
     }
   ],
