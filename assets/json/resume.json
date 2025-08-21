@@ -83,11 +83,10 @@
       "startDate": "2023-10-01",
       "endDate": "2024-09-01",
       "url": "https://datascience.ucsd.edu/",
-      "summary": "Built a modular 'Injector' pipeline with beam-search pruning and Optuna Bayesian tuning, raising downstream model accuracy by 10% and fairness by 15%.",
+      "summary": "Built a modular 'Injector' pipeline (pattern-gen → sampling → injection → evaluation) with beam-search pruning and Optuna Bayesian tuning, raising downstream model accuracy by 10% and fairness by 15%.",
       "highlights": [
         "Co-authored 'Stress-Testing ML Pipelines with Adversarial Data Corruption,' VLDB 2025; introduced the first adversarial benchmark for data-quality robustness.",
-        "Ran comprehensive Inject → Clean → Retrain benchmarks on missing-value, selection-bias, and outlier scenarios while optimizing Z-score standardization for skewed data—boosting attack coverage 30%.",
-        "Developed and implemented a framework for specifying and injecting complex data quality issues into datasets, using Python to address data biases and improve fairness and accuracy in machine learning models."
+        "Ran comprehensive Inject → Clean → Retrain benchmarks on missing-value, selection-bias, and outlier scenarios while optimizing Z-score standardization for skewed data—boosting attack coverage 30%."
       ]
     }
   ],
