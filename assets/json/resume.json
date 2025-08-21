@@ -54,15 +54,27 @@
   "work": [
     {
       "name": "4Pexonic Inc.",
-      "position": "Software Engineer",
+      "position": "Back-end Engineer",
       "url": "https://www.4pexonic.com/",
       "startDate": "2024-10-01",
       "endDate": "Present",
-      "summary": "Developed large-scale project management web applications and optimized backend systems for performance and reliability.",
+      "summary": "Developed an academic impact analysis platform tracking citation patterns and research influence using Node.js, MongoDB, and Next.js with Docker containerization, serving university researchers and policy institutions.",
       "highlights": [
-        "Built responsive UIs with Angular, reducing load times by 30%.",
-        "Integrated RESTful APIs with Ruby backends and PostgreSQL databases, cutting latency by 35%.",
-        "Streamlined SDLC using Agile, CI/CD, and Git, halving deployment time and reducing failures by 40%."
+        "Built two-tier caching with in-process LRU and Redis for bibliometric queries, reducing response times by 40% for complex research trend analysis and cross-disciplinary impact calculations.",
+        "Integrated gRPC microservices for data processing pipelines and implemented secure authentication with bcrypt/session management, configured Nginx SSL to protect academic publication data and researcher information.",
+        "Created API documentation for citation tracking endpoints, established monitoring for data accuracy validation, and collaborated with QA team on bibliometric testing protocols, improving system reliability by 25%."
+      ]
+    },
+    {
+      "name": "UCSD ECE Department",
+      "position": "Web Developer",
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "url": "https://ita.ucsd.edu",
+      "summary": "Developed the ITA Workshop website with video/document upload functionality using Django and React, serving 1000+ users with Redis server-side caching and optimized SQL indexes for improved page load performance.",
+      "highlights": [
+        "Refactored file upload system to asynchronous chunked processing, enabling large video and document handling while maintaining ACID-safe database schema changes and improving overall system throughput.",
+        "Implemented multipart S3 uploads with SHA-256 integrity checks and PostgreSQL performance tuning, achieving high-throughput file transfers with cross-region replication for data durability."
       ]
     },
     {
@@ -76,19 +88,6 @@
         "Built Dockerized services using Node.js/Express, MongoDB, and Next.js, reducing setup time by 60%.",
         "Integrated GPU-powered LLM microservices for city services, achieving 200ms average latency.",
         "Implemented TLS termination with Nginx/Certbot and secure authentication, reaching 99.9% uptime."
-      ]
-    },
-    {
-      "name": "UCSD ECE Department",
-      "position": "Web Developer",
-      "startDate": "2024-02-01",
-      "endDate": "2024-06-01",
-      "url": "https://ita.ucsd.edu",
-      "summary": "Maintained and improved the ITA workshop website using Django and React.",
-      "highlights": [
-        "Implemented caching and query optimization to cut load times by 35%.",
-        "Improved upload logic, reducing media upload speed by 20%.",
-        "Managed PostgreSQL and versioned S3 backups with multi-region replication."
       ]
     },
     {
