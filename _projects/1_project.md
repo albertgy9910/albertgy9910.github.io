@@ -13,8 +13,11 @@ related_publications: true
 
 This project focuses on developing a framework to manage and improve data quality, with the goal of enhancing fairness and robustness in machine learning models. The work involves creating tools to handle data biases and conducting experiments to assess the effectiveness of these tools.
 
+**Preprint:** [Stress-Testing ML Pipelines with Adversarial Data Corruption](https://arxiv.org/abs/2506.01230)  
+**Code:** [https://github.com/lodino/savage](https://github.com/lodino/savage)
+
 - Built a modular "Injector" pipeline (pattern-gen → sampling → injection → evaluation) with beam-search pruning and Optuna Bayesian tuning, raising downstream model accuracy by 10% and fairness by 15%.
-- Co-authored ["Stress-Testing ML Pipelines with Adversarial Data Corruption,"](https://arxiv.org/abs/2506.01230) VLDB 2025; introduced the first adversarial benchmark for data-quality robustness.
+- Co-authored "Stress-Testing ML Pipelines with Adversarial Data Corruption," VLDB 2025; introduced the first adversarial benchmark for data-quality robustness.
 - Ran comprehensive Inject → Clean → Retrain benchmarks on missing-value, selection-bias, and outlier scenarios while optimizing Z-score standardization for skewed data—boosting attack coverage 30%.
 - Developed and implemented a framework for specifying and injecting complex data quality issues into datasets, using Python to address data biases and improve fairness and accuracy in machine learning models.
 

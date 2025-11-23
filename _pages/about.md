@@ -2,33 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Software Engineer | San Diego, CA</a>
+subtitle: <a href='#'>PhD Applicant | Research Engineer</a>
 
 profile:
   align: right
   image: albert.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
+    <p>Dayton, OH</p>
+    <p>gexu@ucsd.edu</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-I am Albert Xu, a full-stack software engineer with experience in backend, web, and systems development. I hold a Master's degree in Computer Science from the University of California, San Diego (GPA: 3.88/4.0) and a Bachelor's degree in Computer Science from the University of Liverpool (GPA: 3.93/4.0, top 3%).
+I am Albert (Geyang) Xu, a software engineer and researcher with a strong focus on data-centric robustness, ML system reliability, and governance. I hold a Master's degree in Computer Science from the University of California, San Diego (GPA: 3.88/4.0) and a Bachelor's degree in Computer Science from the University of Liverpool (GPA: 3.93/4.0).
 
-Currently, I work at 4Pexonic Inc. in San Diego as a Back-end Engineer, where I developed an academic impact analysis platform tracking citation patterns and research influence using Node.js, MongoDB, and Next.js with Docker containerization. I built two-tier caching with in-process LRU and Redis for bibliometric queries, reducing response times by 40% for complex research trend analysis. I also integrated gRPC microservices for data processing pipelines and implemented secure authentication with bcrypt/session management, configured Nginx SSL to protect academic publication data and researcher information.
+Currently, I work as a **Manufacturing Data Analyst** at **Fuyao Glass America Inc.**, where I build clean analytics layers and real-time dashboards to monitor production reliability. Previously, I was a Research Engineer at the [UCSD Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu/) and a Back-end Engineer at 4Pexonic Inc.
 
-Previously, I worked as a Research Engineer at the [UCSD Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu/) (Oct 2023 - Sep 2024), where I focused on data quality and fairness in machine learning systems. I built a modular "Injector" pipeline with beam-search pruning and Optuna Bayesian tuning, raising downstream model accuracy by 10% and fairness by 15%. I co-authored "Stress-Testing ML Pipelines with Adversarial Data Corruption" (VLDB 2025), introducing the first adversarial benchmark for data-quality robustness. I also ran comprehensive benchmarks on missing-value, selection-bias, and outlier scenarios while optimizing Z-score standardization for skewed data—boosting attack coverage by 30%.
+**Preprint:** [Stress-Testing ML Pipelines with Adversarial Data Corruption](https://arxiv.org/abs/2506.01230)  
+**Code:** [https://github.com/lodino/savage](https://github.com/lodino/savage)
 
-Earlier roles include Web Developer at UCSD's ECE Department, where I developed the ITA Workshop website with video/document upload functionality using Django and React, serving 1000+ users with Redis server-side caching and optimized SQL indexes for improved page load performance.
+### Research Interests
+- Data-centric robustness of ML pipelines
+- ML/MLOps reliability & monitoring
+- Responsible & transparent data management
+- Streaming & distributed data systems
+- Data provenance & explanations
+- Governance of ML systems
 
-My tech stack includes Python, Java, Go, SQL, JavaScript, Django, React, Node.js, Docker, AWS, and gRPC. I'm passionate about delivering robust, high-performance systems and writing clean, maintainable code.
+### Research Philosophy
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/albert-xu-a611a51bb/) or explore my [GitHub](https://github.com/albertgy9910).
+At Fuyao, I spend my days building data analysis layers, designing experiments, and setting up monitoring to make the data system of production lines as transparent, stable, and traceable as possible. At 4Pexonic, I observed how large-scale bibliographic data are collected and aggregated, realizing that caching strategies and data handling directly influence the perceived academic ecosystem.
 
-You can reach me at the following:
+These experiences shared a common thread: engineering roles often focus on implementing existing rules. I could optimize a pipeline or a platform, but I had little influence over *how* we evaluate and govern these systems.
 
-- **Phone**: 858-568-6771
-- **Email**: albertxu1010@gmail.com
-- **Location**: San Diego, CA
+What truly fascinates me is not just maintaining stability, but participating in defining the general frameworks for reliability and governance in the next generation of ML/data pipelines. How should we describe and inject data errors? How do we perform systematic stress testing? How do we translate these results into trusted evidence?
+
+For me, pursuing a PhD is the necessary path from being someone who executes existing standards to someone who helps define them.
