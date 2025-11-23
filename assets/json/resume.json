@@ -35,14 +35,7 @@
       "startDate": "2022-09-01",
       "endDate": "2024-03-01",
       "score": "3.88/4.0",
-      "courses": [
-        "Operating Systems",
-        "Networks",
-        "Programming Languages",
-        "ML",
-        "Probabilistic Modeling",
-        "Data Ethics"
-      ]
+      "courses": ["Operating Systems", "Networks", "Programming Languages", "ML", "Probabilistic Modeling", "Data Ethics"]
     },
     {
       "institution": "University of Liverpool",

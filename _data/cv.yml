@@ -48,7 +48,7 @@
   type: time_table
   contents:
     - title: "PVLDB’25: Stress-Testing ML Pipelines with Adversarial Data Corruption (SAVAGE)"
-      institution: PVLDB 18(11): 4668–4681 (2025)
+      institution: "PVLDB 18(11): 4668–4681 (2025)"
       year: 2025
       description:
         - Preprint: <a href="https://arxiv.org/abs/2506.01230">https://arxiv.org/abs/2506.01230</a>

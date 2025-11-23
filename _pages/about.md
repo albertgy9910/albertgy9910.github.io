@@ -25,6 +25,7 @@ Currently, I work as a **Manufacturing Data Analyst** at **Fuyao Glass America I
 **Code:** [https://github.com/lodino/savage](https://github.com/lodino/savage)
 
 ### Research Interests
+
 - Data-centric robustness of ML pipelines
 - ML/MLOps reliability & monitoring
 - Responsible & transparent data management
@@ -36,7 +37,7 @@ Currently, I work as a **Manufacturing Data Analyst** at **Fuyao Glass America I
 
 At Fuyao, I spend my days building data analysis layers, designing experiments, and setting up monitoring to make the data system of production lines as transparent, stable, and traceable as possible. At 4Pexonic, I observed how large-scale bibliographic data are collected and aggregated, realizing that caching strategies and data handling directly influence the perceived academic ecosystem.
 
-These experiences shared a common thread: engineering roles often focus on implementing existing rules. I could optimize a pipeline or a platform, but I had little influence over *how* we evaluate and govern these systems.
+These experiences shared a common thread: engineering roles often focus on implementing existing rules. I could optimize a pipeline or a platform, but I had little influence over _how_ we evaluate and govern these systems.
 
 What truly fascinates me is not just maintaining stability, but participating in defining the general frameworks for reliability and governance in the next generation of ML/data pipelines. How should we describe and inject data errors? How do we perform systematic stress testing? How do we translate these results into trusted evidence?
 
