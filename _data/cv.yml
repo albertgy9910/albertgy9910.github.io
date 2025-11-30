@@ -29,20 +29,20 @@
       institution: University of California, San Diego
       year: 2022.09 - 2024.03
       description:
-        - GPA: 3.88/4.0
-        - Courses: Operating Systems, Networks, Programming Languages, ML, Probabilistic Modeling, Data Ethics
+        - "GPA: 3.88/4.0"
+        - "Courses: Operating Systems, Networks, Programming Languages, ML, Probabilistic Modeling, Data Ethics"
 
     - title: Bachelor of Science in Computer Science
       institution: University of Liverpool, UK
       year: 2020.10 - 2022.06
       description:
-        - GPA: 3.93/4.0 (WES Approved, Top 3%)
+        - "GPA: 3.93/4.0 (WES Approved, Top 3%)"
 
     - title: Bachelor of Science in Information and Computing Science
       institution: Xi'an Jiaotong-Liverpool University, China
       year: 2018.09 - 2020.06
       description:
-        - Years 0–1 under the UoL 2+2 Programme
+        - "Years 0–1 under the UoL 2+2 Programme"
 
 - title: Experience
   type: time_table
