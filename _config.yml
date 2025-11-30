@@ -6,7 +6,8 @@ title: Geyang (Albert) Xu
 first_name: Albert
 middle_name: Geyang
 last_name: Xu
-email: gexu@ucsd.edu
+email:
+# email: gexu@ucsd.edu
 description: PhD Applicant's Academic Website
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -40,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
