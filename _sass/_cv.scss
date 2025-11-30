@@ -77,6 +77,21 @@ div.container-links {
   margin-bottom: 0.5rem;
 }
 
+/* Force consistent list styling for CV items */
+ul.items {
+  margin-left: 1rem;
+  padding-left: 0;
+}
+ul.items > li {
+  list-style-type: disc !important; /* Force disc bullet */
+  margin-bottom: 0.25rem;
+}
+/* Remove any potential special styling for the first child if it exists elsewhere */
+ul.items > li:first-child {
+  list-style-type: disc !important;
+  font-weight: normal !important;
+}
+
 /*****************************
  * CV MAP styles
  *****************************/
@@ -189,27 +204,3 @@ ul.timeline li::before {
   left: 2px;
   top: -0.5rem;
 }
-
-/*ul.timeline::before {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: 0.4rem;
-     color: var(--global-text-color);
-}
- ul.timeline::after {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: -1rem;
-     color: var(--global-text-color);
-}
-*/
