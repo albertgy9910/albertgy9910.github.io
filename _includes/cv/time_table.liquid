@@ -57,13 +57,13 @@
           {% if content.description or content.maindescription %}
             <ul class="items">
               {% if content.maindescription %}
-                <li style="list-style-type: disc !important;">
-                   <span class="item" style="font-style: normal !important;">{{ content.maindescription }}</span>
+                <li>
+                   <span class="item">{{ content.maindescription }}</span>
                 </li>
               {% endif %}
               {% if content.description %}
                 {% for item in content.description %}
-                  <li style="list-style-type: disc !important;">
+                  <li>
                     {% if item.contents %}
                       <span class="item-title">{{ item.title }}</span>
                       <ul class="subitems">
@@ -74,7 +74,7 @@
                         {% endfor %}
                       </ul>
                     {% else %}
-                      <span class="item" style="font-style: normal !important;">{{ item }}</span>
+                      <span class="item">{{ item }}</span>
                     {% endif %}
                   </li>
                 {% endfor %}

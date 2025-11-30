@@ -77,19 +77,29 @@ div.container-links {
   margin-bottom: 0.5rem;
 }
 
-/* Force consistent list styling for CV items */
+/* Force consistent list styling for ALL CV items */
 ul.items {
-  margin-left: 1rem;
-  padding-left: 0;
+  margin-left: 0;
+  padding-left: 1.2rem; /* Ensure space for bullets */
+  list-style-position: outside; /* Bullets outside to align text */
 }
-ul.items > li {
-  list-style-type: disc !important; /* Force disc bullet */
+
+ul.items li {
+  list-style-type: disc !important; /* Force disc bullet for ALL items */
   margin-bottom: 0.25rem;
+  font-style: normal !important; /* Force normal text */
 }
-/* Remove any potential special styling for the first child if it exists elsewhere */
-ul.items > li:first-child {
+
+/* Specifically target and override any italic/hidden-bullet style on the first item */
+ul.items li:first-child {
   list-style-type: disc !important;
+  font-style: normal !important;
   font-weight: normal !important;
+}
+
+/* Ensure span inside li doesn't inherit weird styles */
+ul.items li span.item {
+  font-style: normal !important;
 }
 
 /*****************************
