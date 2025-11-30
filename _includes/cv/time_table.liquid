@@ -55,15 +55,15 @@
           {% endif %}
           
           {% if content.description or content.maindescription %}
-            <ul class="items">
+            <ul class="items" style="list-style-type: disc !important; padding-left: 20px !important; margin-left: 0 !important;">
               {% if content.maindescription %}
-                <li>
-                   <span class="item">{{ content.maindescription }}</span>
+                <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important;">
+                   <span class="item" style="font-style: normal !important;">{{ content.maindescription }}</span>
                 </li>
               {% endif %}
               {% if content.description %}
                 {% for item in content.description %}
-                  <li>
+                  <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important;">
                     {% if item.contents %}
                       <span class="item-title">{{ item.title }}</span>
                       <ul class="subitems">
@@ -74,7 +74,7 @@
                         {% endfor %}
                       </ul>
                     {% else %}
-                      <span class="item">{{ item }}</span>
+                      <span class="item" style="font-style: normal !important;">{{ item }}</span>
                     {% endif %}
                   </li>
                 {% endfor %}
@@ -83,9 +83,9 @@
           {% endif %}
 
           {% if content.items %}
-            <ul class="items">
+            <ul class="items" style="list-style-type: disc !important; padding-left: 20px !important; margin-left: 0 !important;">
               {% for item in content.items %}
-                <li>
+                <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important;">
                   {% if item.contents %}
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">

@@ -51,7 +51,7 @@
       institution: Fuyao Glass America Inc.
       year: 2025.10 - Present
       description:
-        - Consolidated production data from machines and inspection systems into a clean analytics layer using Python and SQL ETL, then delivered role-based dashboards that track OEE, FPY, scrap, and changeover in near real time.
+        - "Consolidated production data from machines and inspection systems into a clean analytics layer using Python and SQL ETL, then delivered role-based dashboards that track OEE, FPY, scrap, and changeover in near real time."
         - Ran set-point experiments on magnetron sputtering and tempering using A/B and DOE, governed changes with Git schema-migrations, SOPs, and parameter logs, and delivered reproducible Jupyter notebooks.
         - Hardened reliability via access control, code review, cron and alerts, 99.3% job success, 2.4 h/week less downtime.
 
@@ -59,7 +59,7 @@
       institution: UCSD Halıcıoğlu Data Science Institute
       year: 2023.10 - 2025.05
       description:
-        - Built a modular "Injector" pipeline (pattern generation → sampling → injection → evaluation) with beam-search pruning and Optuna/TPE-based Bayesian tuning to systematically surface structured corruptions that reduce downstream AUC by >0.25 compared to random-parameter attacks.
+        - "Built a modular 'Injector' pipeline (pattern generation → sampling → injection → evaluation) with beam-search pruning and Optuna/TPE-based Bayesian tuning to systematically surface structured corruptions that reduce downstream AUC by >0.25 compared to random-parameter attacks."
         - Co-authored SAVAGE, designing corruption dependency graphs and bi-level black-box search to model mechanism-aware missingness, selection-bias, and outlier patterns for pipeline-level stress-testing of ML systems.
         - Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps.
 
@@ -67,7 +67,7 @@
       institution: 4Pexonic Inc.
       year: 2024.10 - 2025.10
       description:
-        - Developed an academic impact analysis platform tracking citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions.
+        - "Developed an academic impact analysis platform tracking citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions."
         - Built two-tier caching with in-process LRU and Redis for bibliometric queries, reducing median and p95 latency by 40% for complex research trend analysis and cross-disciplinary impact calculations.
         - Integrated gRPC microservices for data processing pipelines and implemented secure authentication with bcrypt/session management, configured Nginx SSL to protect academic publication data and researcher information.
 
