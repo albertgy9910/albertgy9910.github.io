@@ -57,13 +57,13 @@
           {% if content.description or content.maindescription %}
             <ul class="items" style="list-style-type: disc !important; padding-left: 20px !important; margin-left: 0 !important;">
               {% if content.maindescription %}
-                <li style="list-style-type: disc !important; font-style: normal !important; font-weight: 400 !important; display: list-item !important;">
-                   <span class="item" style="font-style: normal !important; font-weight: 400 !important;">{{ content.maindescription }}</span>
+                <li style="list-style-type: disc !important; font-style: normal !important; font-weight: inherit !important; display: list-item !important; color: inherit !important;">
+                   <span class="item" style="font-style: normal !important; font-weight: inherit !important; color: inherit !important;">{{ content.maindescription }}</span>
                 </li>
               {% endif %}
               {% if content.description %}
                 {% for item in content.description %}
-                  <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important;">
+                  <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important; font-weight: inherit !important; color: inherit !important;">
                     {% if item.contents %}
                       <span class="item-title">{{ item.title }}</span>
                       <ul class="subitems">
@@ -74,7 +74,7 @@
                         {% endfor %}
                       </ul>
                     {% else %}
-                      <span class="item" style="font-style: normal !important;">{{ item }}</span>
+                      <span class="item" style="font-style: normal !important; font-weight: inherit !important; color: inherit !important;">{{ item }}</span>
                     {% endif %}
                   </li>
                 {% endfor %}
@@ -85,7 +85,7 @@
           {% if content.items %}
             <ul class="items" style="list-style-type: disc !important; padding-left: 20px !important; margin-left: 0 !important;">
               {% for item in content.items %}
-                <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important;">
+                <li style="list-style-type: disc !important; font-style: normal !important; display: list-item !important; font-weight: inherit !important;">
                   {% if item.contents %}
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">

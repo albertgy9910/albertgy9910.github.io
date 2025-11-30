@@ -88,18 +88,24 @@ ul.items li {
   list-style-type: disc !important; /* Force disc bullet for ALL items */
   margin-bottom: 0.25rem;
   font-style: normal !important; /* Force normal text */
+  font-weight: inherit !important; /* Inherit from parent (likely font-weight-light) */
+  color: inherit !important;
+  opacity: 1 !important;
 }
 
 /* Specifically target and override any italic/hidden-bullet style on the first item */
 ul.items li:first-child {
   list-style-type: disc !important;
   font-style: normal !important;
-  font-weight: normal !important;
+  font-weight: inherit !important; /* CRITICAL: Do not use 'normal' as it is bolder than 'light' */
+  color: inherit !important;
 }
 
 /* Ensure span inside li doesn't inherit weird styles */
 ul.items li span.item {
   font-style: normal !important;
+  font-weight: inherit !important;
+  color: inherit !important;
 }
 
 /*****************************
