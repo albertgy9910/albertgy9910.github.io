@@ -44,16 +44,6 @@
       description:
         - Years 0–1 under the UoL 2+2 Programme
 
-- title: Publications
-  type: time_table
-  contents:
-    - title: "PVLDB’25: Stress-Testing ML Pipelines with Adversarial Data Corruption (SAVAGE)"
-      institution: "PVLDB 18(11): 4668–4681 (2025)"
-      year: 2025
-      description:
-        - Preprint: <a href="https://arxiv.org/abs/2506.01230">https://arxiv.org/abs/2506.01230</a>
-        - Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>
-
 - title: Experience
   type: time_table
   contents:
@@ -81,8 +71,22 @@
         - Built two-tier caching with in-process LRU and Redis for bibliometric queries, reducing median and p95 latency by 40% for complex research trend analysis and cross-disciplinary impact calculations.
         - Integrated gRPC microservices for data processing pipelines and implemented secure authentication with bcrypt/session management, configured Nginx SSL to protect academic publication data and researcher information.
 
-- title: Skills
-  type: list
+- title: Publications
+  type: time_table
   contents:
-    - <b>Languages:</b> Python, Java, Go, SQL, C/C++, JavaScript, R
-    - <b>Frameworks/Tools:</b> Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Redis, Jupyter, Nginx, AWS
+    - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption (SAVAGE)"
+      institution: "PVLDB 18(11): 4668–4681 (2025)"
+      year: 2025
+      description:
+        - Preprint: <a href="https://arxiv.org/abs/2506.01230">https://arxiv.org/abs/2506.01230</a>
+        - Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, Java, Go, SQL, C/C++, JavaScript, R
+    - title: Frameworks and Tools
+      items:
+        - Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Redis, Jupyter, Nginx, AWS
