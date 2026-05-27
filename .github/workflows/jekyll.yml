@@ -29,6 +29,7 @@ concurrency:
 jobs:
   # Build job
   build:
+    if: ${{ !hashFiles('.maintenance') }}
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
