@@ -62,7 +62,6 @@ permissions:
 
 jobs:
   deploy:
-    if: ${{ !hashFiles('.maintenance') }}
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-22.04
     steps:

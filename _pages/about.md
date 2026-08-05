@@ -9,7 +9,6 @@ profile:
   image: albert.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -32,7 +31,7 @@ My research interests lie at the intersection of data management and machine lea
 
 At Fuyao, I spent my days building analytics layers, designing experiments, and monitoring production to make our data systems transparent, stable, and traceable. At 4Pexonic, I witnessed the other side of the data lifecycle—how large-scale bibliographic data is collected, cached, and aggregated to produce metrics like "research impact" and "disciplinary trends." There, technical decisions like caching strategies and latency handling directly shaped how the academic ecosystem was perceived.
 
-These experiences reinforced a common theme: engineering roles are often about executing within existing rules and standards. I can optimize a coating line’s data pipeline or tune an analytics platform for low latency, but I have little influence over *how* we evaluate and govern these systems in the first place.
+These experiences reinforced a common theme: engineering roles are often about executing within existing rules and standards. I can optimize a coating line’s data pipeline or tune an analytics platform for low latency, but I have little influence over _how_ we evaluate and govern these systems in the first place.
 
 What truly fascinates me is not just maintaining stability, but defining the general frameworks for reliability and governance in the next generation of ML and data pipelines. How should we describe and inject data errors? How do we perform systematic stress testing on complex pipelines? How do we translate these results into evidence that engineers, stakeholders, and regulators can trust?
 
