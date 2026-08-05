@@ -4,13 +4,13 @@
     - name: Full Name
       value: Albert (Geyang) Xu
     - name: Email
-      value: gexu@ucsd.edu
+      value: albertxu1010@gmail.com
     - name: Phone
       value: 858-568-6771
     - name: Website
       value: <a href="https://albertgy9910.github.io">albertgy9910.github.io</a>
     - name: Location
-      value: Dayton, OH
+      value: Los Angeles, CA
 
 - title: Research Interests
   type: list
@@ -25,6 +25,12 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science (Incoming)
+      institution: University of California, Riverside
+      year: 2026.09 - Expected
+      description:
+        - Riverside, CA
+
     - title: Master of Science in Computer Science
       institution: University of California, San Diego
       year: 2022.09 - 2024.03
@@ -34,42 +40,36 @@
 
     - title: Bachelor of Science in Computer Science
       institution: University of Liverpool, UK
-      year: 2020.10 - 2022.06
+      year: 2018.09 - 2022.06
       description:
-        - "GPA: 3.93/4.0 (WES Approved, Top 3%)"
-
-    - title: Bachelor of Science in Information and Computing Science
-      institution: Xi'an Jiaotong-Liverpool University, China
-      year: 2018.09 - 2020.06
-      description:
-        - "Years 0–1 under the UoL 2+2 Programme"
+        - "GPA: 3.93/4.0 (top 3%)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Manufacturing Data Analyst
+    - title: Software Engineer
       institution: Fuyao Glass America Inc.
-      year: 2025.10 - Present
+      year: 2025.10 - 2026.04
       description:
-        - "Consolidated production data from machines and inspection systems into a clean analytics layer using Python and SQL ETL, then delivered role-based dashboards that track OEE, FPY, scrap, and changeover in near real time."
-        - Ran set-point experiments on magnetron sputtering and tempering using A/B and DOE, governed changes with Git schema-migrations, SOPs, and parameter logs, and delivered reproducible Jupyter notebooks.
-        - Hardened reliability via access control, code review, cron and alerts, 99.3% job success, 2.4 h/week less downtime.
+        - "Built a YOLOv8 computer-vision pipeline for inline automotive-glass inspection, detecting scratch, chip, edge, and coating defects on line-camera frames."
+        - "Integrated detections into Python/SQL ETL with coating/tempering/inspection data; shipped role-based dashboards for OEE, FPY, scrap, and changeover."
+        - "Productionized CV inference + ETL with cron, alerts, and access control — 99.3% job success and 2.4 hrs/week less downtime; supported A/B and DOE setpoint studies in Jupyter."
 
-    - title: Research Engineer
-      institution: UCSD Halıcıoğlu Data Science Institute
-      year: 2023.10 - 2025.05
-      description:
-        - "Built a modular 'Injector' pipeline (pattern generation → sampling → injection → evaluation) with beam-search pruning and Optuna/TPE-based Bayesian tuning to systematically surface structured corruptions that reduce downstream AUC by >0.25 compared to random-parameter attacks."
-        - Co-authored SAVAGE, designing corruption dependency graphs and bi-level black-box search to model mechanism-aware missingness, selection-bias, and outlier patterns for pipeline-level stress-testing of ML systems.
-        - Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps.
-
-    - title: Back-end Engineer
+    - title: Software Engineer
       institution: 4Pexonic Inc.
       year: 2024.10 - 2025.10
       description:
         - "Developed an academic impact analysis platform tracking citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions."
-        - Built two-tier caching with in-process LRU and Redis for bibliometric queries, reducing median and p95 latency by 40% for complex research trend analysis and cross-disciplinary impact calculations.
-        - Integrated gRPC microservices for data processing pipelines and implemented secure authentication with bcrypt/session management, configured Nginx SSL to protect academic publication data and researcher information.
+        - "Built two-tier caching (in-process LRU + Redis), cutting median and p95 latency by 40%."
+        - "Integrated gRPC microservices; implemented bcrypt/session auth and Nginx TLS."
+
+    - title: Research Engineer
+      institution: UCSD Halıcıoğlu Data Science Institute
+      year: 2023.10 - 2024.10
+      description:
+        - "Built modular Python Injector pipeline (generate → sample → inject → eval) with beam-search + Optuna/TPE, cutting downstream AUC by >0.25 vs. random attacks."
+        - "Co-authored SAVAGE (PVLDB'25), designing corruption dependency graphs and bi-level black-box search to model mechanism-aware missingness, selection-bias, and outlier patterns for pipeline-level stress-testing of ML systems."
+        - "Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps."
 
 - title: Publications
   type: time_table
@@ -89,4 +89,4 @@
         - Python, Java, Go, SQL, C/C++, JavaScript, R
     - title: Frameworks and Tools
       items:
-        - Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Redis, Jupyter, Nginx, AWS
+        - Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Optuna, Jupyter, YOLOv8, AWS

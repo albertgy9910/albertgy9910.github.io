@@ -8,12 +8,12 @@ middle_name: Geyang
 last_name: Xu
 email:
 email: ""
-description: PhD Applicant's Academic Website
+description: Incoming PhD Student at UC Riverside | Academic Website
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Geyang Xu, Albert Xu, PhD Applicant, Research, Machine Learning, Data Systems, UCSD
+keywords: Geyang Xu, Albert Xu, UC Riverside, PhD, Research, Machine Learning, Data Systems, UCSD
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

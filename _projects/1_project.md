@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-**UCSD Halıcıoğlu Data Science Institute (Oct 2023 - Sep 2024)**  
+**UCSD Halıcıoğlu Data Science Institute (Oct 2023 - Oct 2024)**  
 **Research Engineer | Supervisor: Babak Salimi | La Jolla, CA**
 
 This project focuses on developing a framework to manage and improve data quality, with the goal of enhancing fairness and robustness in machine learning models. The work involves creating tools to handle data biases and conducting experiments to assess the effectiveness of these tools.
