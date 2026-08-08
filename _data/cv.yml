@@ -51,9 +51,9 @@
       institution: Fuyao Glass America Inc.
       year: 2025.10 - 2026.04
       description:
-        - "Built a YOLOv8 computer-vision pipeline for inline automotive-glass inspection, detecting scratch, chip, edge, and coating defects on line-camera frames."
-        - "Integrated detections into Python/SQL ETL with coating/tempering/inspection data; shipped role-based dashboards for OEE, FPY, scrap, and changeover."
-        - "Productionized CV inference + ETL with cron, alerts, and access control — 99.3% job success and 2.4 hrs/week less downtime; supported A/B and DOE setpoint studies in Jupyter."
+        - "Fine-tuned YOLOv8 for inline automotive-glass inspection on labeled line-camera frames, reaching mAP@0.5 ≈ 0.87 and >90% recall on held-out images under plant miss-rate targets."
+        - "Built Python/SQL pipelines that fuse defect detections with coating, tempering, and inspection signals into a shared analytics layer; shipped role-based dashboards tracking OEE, FPY, scrap, and changeover to support high-efficiency production."
+        - "Productionized defect detection on line-camera frames with cron, alerts, and access control — 99.3% job success and 2.4 hrs/week less downtime; ran A/B and DOE setpoint studies in Jupyter for process tuning."
 
     - title: Software Engineer
       institution: 4Pexonic Inc.
@@ -84,9 +84,12 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Programming Languages
+    - title: Languages
       items:
         - Python, Java, Go, SQL, C/C++, JavaScript, R
+    - title: LLM / Agents
+      items:
+        - RAG (pgvector), LangGraph
     - title: Frameworks and Tools
       items:
         - Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Optuna, Jupyter, YOLOv8, AWS
