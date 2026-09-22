@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Incoming PhD @ UC Riverside | Software / Research Engineer</a>
+subtitle: <a href='#'>PhD Student @ UC Riverside | ML Systems Reliability</a>
 
 profile:
   align: right
@@ -15,16 +15,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang) Xu, a researcher and engineer focused on **data-centric AI**, **ML system reliability**, and **governance**. My goal is to define the frameworks for reliability and governance in the next generation of ML/data pipelines.
+I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **Prof. Qian Zhang**. My research focuses on **ML systems reliability**, **data-centric AI**, and **governance**—building frameworks that make ML/data pipelines more robust, transparent, and trustworthy.
 
-I will begin a **Ph.D. in Computer Science at UC Riverside** in Fall 2026. I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.88/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
+I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.88/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
 
-Most recently, I worked as a **Software Engineer** at **Fuyao Glass America**, fine-tuning YOLOv8 for inline automotive-glass inspection (mAP@0.5 ≈ 0.87, >90% recall) and shipping production analytics. Previously, I was a Software Engineer at **4Pexonic** and a Research Engineer at the **UCSD Halıcıoğlu Data Science Institute** (HDSI), where I co-authored research on stress-testing ML pipelines.
+Previously, I worked as a **Software Engineer** at **Fuyao Glass America**, fine-tuning YOLOv8 for inline automotive-glass inspection (mAP@0.5 ≈ 0.87, >90% recall) and shipping production analytics. I was also a Software Engineer at **4Pexonic** and a Research Engineer at the **UCSD Halıcıoğlu Data Science Institute** (HDSI), where I co-authored research on stress-testing ML pipelines.
 
-My research interests lie at the intersection of data management and machine learning, specifically:
+My research interests include:
 
+- **ML Systems Reliability**: Systematic approaches to monitoring and explaining ML system failures.
 - **Data-Centric Robustness**: Stress-testing ML pipelines with adversarial data corruption.
-- **ML Reliability & Governance**: Systematic approaches to monitoring and explaining ML system failures.
 - **Data Provenance**: Tracking and managing data quality in complex streaming systems.
 
 ### Research Philosophy
@@ -35,4 +35,4 @@ These experiences reinforced a common theme: engineering roles are often about e
 
 What truly fascinates me is not just maintaining stability, but defining the general frameworks for reliability and governance in the next generation of ML and data pipelines. How should we describe and inject data errors? How do we perform systematic stress testing on complex pipelines? How do we translate these results into evidence that engineers, stakeholders, and regulators can trust?
 
-These questions go far beyond individual engineering practice; they require systematic research and community consensus. For me, pursuing a PhD is not just about obtaining another degree—it is the necessary path from being someone who executes existing standards to someone who helps define them.
+These questions go far beyond individual engineering practice; they require systematic research and community consensus. Pursuing a Ph.D. is my path from executing existing standards to helping define them.

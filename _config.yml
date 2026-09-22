@@ -6,13 +6,13 @@ title: Geyang (Albert) Xu
 first_name: Albert
 middle_name: Geyang
 last_name: Xu
-email: albertxu1010@gmail.com
-description: Incoming PhD Student at UC Riverside | Academic Website
+email: gxu048@ucr.edu
+description: PhD Student at UC Riverside | ML Systems Reliability
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Geyang Xu, Albert Xu, UC Riverside, PhD, Research, Machine Learning, Data Systems, UCSD
+keywords: Geyang Xu, Albert Xu, UC Riverside, PhD, ML Systems Reliability, Machine Learning, Data Systems
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -94,7 +94,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: # your Google Scholar ID
+scholar_userid: uv-aJMoAAAAJ
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -305,8 +305,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Xu]
+  first_name: [Geyang, Albert, G., A.]
 
   style: apa
   locale: en

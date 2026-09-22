@@ -13,9 +13,9 @@ related_publications: true
 
 This project focuses on developing a framework to manage and improve data quality, with the goal of enhancing fairness and robustness in machine learning models. The work involves creating tools to handle data biases and conducting experiments to assess the effectiveness of these tools.
 
-**Preprint:** [Stress-Testing ML Pipelines with Adversarial Data Corruption](https://arxiv.org/abs/2506.01230)  
+**DOI:** [Stress-Testing ML Pipelines with Adversarial Data Corruption](https://doi.org/10.14778/3749646.3749721)  
 **Code:** [https://github.com/lodino/savage](https://github.com/lodino/savage)
 
-- Built a modular "Injector" pipeline (pattern-gen → sampling → injection → evaluation) with beam-search pruning and Optuna/TPE-based Bayesian tuning to systematically surface structured corruptions that reduce downstream AUC by >0.25 compared to random-parameter attacks.
-- Co-authored "Stress-Testing ML Pipelines with Adversarial Data Corruption" (SAVAGE), designing corruption dependency graphs and bi-level black-box search to model mechanism-aware missingness, selection-bias, and outlier patterns for pipeline-level stress-testing of ML systems.
+- Built an Injector pipeline (generate → sample → inject → eval) driving a gradient-free bi-level search: beam search over corruption dependency graphs at the outer level, Optuna/TPE over parameters at the inner, with the pipeline as a black box.
+- Benchmarked the search against random corruption injection, cutting downstream model AUC by >0.25 and turning each win into a readable failure pattern — which subpopulation broke, and by what mechanism.
 - Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps.

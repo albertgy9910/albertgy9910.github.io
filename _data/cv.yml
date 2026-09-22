@@ -4,39 +4,39 @@
     - name: Full Name
       value: Albert (Geyang) Xu
     - name: Email
-      value: albertxu1010@gmail.com
+      value: gxu048@ucr.edu
     - name: Phone
-      value: 858-568-6771
+      value: +1 858-568-6771
     - name: Website
       value: <a href="https://albertgy9910.github.io">albertgy9910.github.io</a>
     - name: Location
-      value: Los Angeles, CA
+      value: Riverside, CA
 
 - title: Research Interests
   type: list
   contents:
+    - ML systems reliability
     - Data-centric robustness of ML pipelines
     - ML/MLOps reliability & monitoring
     - Responsible & transparent data management
-    - Streaming & distributed data systems
     - Data provenance & explanations
     - Governance of ML systems
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Computer Science (Incoming)
+    - title: Ph.D. in Computer Science
       institution: University of California, Riverside
-      year: 2026.09 - Expected
+      year: 2026.09 - Present
       description:
-        - Riverside, CA
+        - "ML Systems Reliability"
+        - "Advisor: Prof. Qian Zhang"
 
     - title: Master of Science in Computer Science
       institution: University of California, San Diego
       year: 2022.09 - 2024.03
       description:
         - "GPA: 3.88/4.0"
-        - "Courses: Operating Systems, Networks, Programming Languages, ML, Probabilistic Modeling, Data Ethics"
 
     - title: Bachelor of Science in Computer Science
       institution: University of Liverpool, UK
@@ -52,14 +52,14 @@
       year: 2025.10 - 2026.04
       description:
         - "Fine-tuned YOLOv8 for inline automotive-glass inspection on labeled line-camera frames, reaching mAP@0.5 ≈ 0.87 and >90% recall on held-out images under plant miss-rate targets."
-        - "Built Python/SQL pipelines that fuse defect detections with coating, tempering, and inspection signals into a shared analytics layer; shipped role-based dashboards tracking OEE, FPY, scrap, and changeover to support high-efficiency production."
         - "Productionized defect detection on line-camera frames with cron, alerts, and access control — 99.3% job success and 2.4 hrs/week less downtime; ran A/B and DOE setpoint studies in Jupyter for process tuning."
+        - "Built Python/SQL pipelines that fuse defect detections with coating, tempering, and inspection signals into a shared analytics layer; shipped role-based dashboards tracking OEE, FPY, scrap, and changeover to support high-efficiency production."
 
     - title: Software Engineer
       institution: 4Pexonic Inc.
       year: 2024.10 - 2025.10
       description:
-        - "Developed an academic impact analysis platform tracking citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions."
+        - "Developed an academic impact analysis platform mining citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions."
         - "Built two-tier caching (in-process LRU + Redis), cutting median and p95 latency by 40%."
         - "Integrated gRPC microservices; implemented bcrypt/session auth and Nginx TLS."
 
@@ -67,18 +67,19 @@
       institution: UCSD Halıcıoğlu Data Science Institute
       year: 2023.10 - 2024.10
       description:
-        - "Built modular Python Injector pipeline (generate → sample → inject → eval) with beam-search + Optuna/TPE, cutting downstream AUC by >0.25 vs. random attacks."
-        - "Co-authored SAVAGE (PVLDB'25), designing corruption dependency graphs and bi-level black-box search to model mechanism-aware missingness, selection-bias, and outlier patterns for pipeline-level stress-testing of ML systems."
+        - "Built an Injector pipeline (generate → sample → inject → eval) driving a gradient-free bi-level search: beam search over corruption dependency graphs at the outer level, Optuna/TPE over parameters at the inner, with the pipeline as a black box."
+        - "Benchmarked the search against random corruption injection, cutting downstream model AUC by >0.25 and turning each win into a readable failure pattern — which subpopulation broke, and by what mechanism."
         - "Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps."
 
 - title: Publications
   type: time_table
   contents:
-    - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption (SAVAGE)"
-      institution: "PVLDB 18(11): 4668–4681 (2025)"
+    - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption"
+      institution: "PVLDB 18(11), 2025"
       year: 2025
       description:
-        - Preprint: <a href="https://arxiv.org/abs/2506.01230">https://arxiv.org/abs/2506.01230</a>
+        - "J. Zhu, G. Xu, et al."
+        - DOI: <a href="https://doi.org/10.14778/3749646.3749721">https://doi.org/10.14778/3749646.3749721</a>
         - Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>
 
 - title: Skills
@@ -87,9 +88,9 @@
     - title: Languages
       items:
         - Python, Java, Go, SQL, C/C++, JavaScript, R
-    - title: LLM / Agents
+    - title: Databases
       items:
-        - RAG (pgvector), LangGraph
+        - PostgreSQL (pgvector), MongoDB, Redis
     - title: Frameworks and Tools
       items:
-        - Docker, Git, gRPC, Node.js, Next.js, Django, React, MongoDB, Optuna, Jupyter, YOLOv8, AWS
+        - Docker, Git, gRPC, Node.js, Next.js, Django, React, Optuna, Jupyter, YOLOv8, AWS, LangGraph
