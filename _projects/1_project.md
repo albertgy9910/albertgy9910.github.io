@@ -16,6 +16,5 @@ This project focuses on developing a framework to manage and improve data qualit
 **DOI:** [Stress-Testing ML Pipelines with Adversarial Data Corruption](https://doi.org/10.14778/3749646.3749721)  
 **Code:** [https://github.com/lodino/savage](https://github.com/lodino/savage)
 
-- Built an Injector pipeline (generate → sample → inject → eval) driving a gradient-free bi-level search: beam search over corruption dependency graphs at the outer level, Optuna/TPE over parameters at the inner, with the pipeline as a black box.
-- Benchmarked the search against random corruption injection, cutting downstream model AUC by >0.25 and turning each win into a readable failure pattern — which subpopulation broke, and by what mechanism.
-- Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps.
+- Built the error-injection pipeline of a black-box ML stress tester (beam search + Optuna Bayesian optimization).
+- Benchmarked 8 data-cleaning, 4 debiasing, and 2 uncertainty-quantification methods; at 10% corruption the framework cut AUC to 0.58 vs. 0.79–0.85 for random corruption and gradient-based poisoning.

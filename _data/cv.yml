@@ -15,28 +15,26 @@
 - title: Research Interests
   type: list
   contents:
-    - ML systems reliability
+    - Testing & reliability of deep learning compilers
+    - Reliability of AI systems
+    - Software engineering for machine learning
     - Data-centric robustness of ML pipelines
-    - ML/MLOps reliability & monitoring
-    - Responsible & transparent data management
-    - Data provenance & explanations
-    - Governance of ML systems
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
       institution: University of California, Riverside
-      year: 2026.09 - Present
+      year: 2026.09 - 2029.06 (expected)
       description:
-        - "ML Systems Reliability"
+        - "Software Engineering for Machine Learning"
         - "Advisor: Prof. Qian Zhang"
 
     - title: Master of Science in Computer Science
       institution: University of California, San Diego
       year: 2022.09 - 2024.03
       description:
-        - "GPA: 3.88/4.0"
+        - "GPA: 3.87/4.0"
 
     - title: Bachelor of Science in Computer Science
       institution: University of Liverpool, UK
@@ -47,15 +45,15 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer
+    - title: Manufacturing Data Analyst
       institution: Fuyao Glass America Inc.
       year: 2025.10 - 2026.04
       description:
-        - "Fine-tuned YOLOv8 for inline automotive-glass inspection on labeled line-camera frames, reaching mAP@0.5 ≈ 0.87 and >90% recall on held-out images under plant miss-rate targets."
-        - "Productionized defect detection on line-camera frames with cron, alerts, and access control — 99.3% job success and 2.4 hrs/week less downtime; ran A/B and DOE setpoint studies in Jupyter for process tuning."
-        - "Built Python/SQL pipelines that fuse defect detections with coating, tempering, and inspection signals into a shared analytics layer; shipped role-based dashboards tracking OEE, FPY, scrap, and changeover to support high-efficiency production."
+        - "Built Python/SQL pipelines that fuse machine and inspection-system data with coating and tempering signals."
+        - "Productionized the pipelines as cron jobs with alerts and access control: 99.3% job success, 2.4 hrs/week less downtime."
+        - "Shipped role-based dashboards tracking OEE, FPY, scrap, and changeover; ran A/B and DOE setpoint studies for process tuning."
 
-    - title: Software Engineer
+    - title: Back-end Engineer
       institution: 4Pexonic Inc.
       year: 2024.10 - 2025.10
       description:
@@ -67,20 +65,19 @@
       institution: UCSD Halıcıoğlu Data Science Institute
       year: 2023.10 - 2024.10
       description:
-        - "Built an Injector pipeline (generate → sample → inject → eval) driving a gradient-free bi-level search: beam search over corruption dependency graphs at the outer level, Optuna/TPE over parameters at the inner, with the pipeline as a black box."
-        - "Benchmarked the search against random corruption injection, cutting downstream model AUC by >0.25 and turning each win into a readable failure pattern — which subpopulation broke, and by what mechanism."
-        - "Ran Inject → Clean → Retrain benchmarks across missing-value, selection-bias, and outlier scenarios to evaluate state-of-the-art cleaning, debiasing, and UQ pipelines and expose their data-centric robustness gaps."
+        - "Built the error-injection pipeline of a black-box ML stress tester (beam search + Optuna Bayesian optimization)."
+        - "Benchmarked 8 data-cleaning, 4 debiasing, and 2 uncertainty-quantification methods; at 10% corruption the framework cut AUC to 0.58 vs. 0.79–0.85 for random corruption and gradient-based poisoning."
 
 - title: Publications
   type: time_table
   contents:
     - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption"
-      institution: "PVLDB 18(11), 2025"
+      institution: "VLDB 2026, PVLDB 18(11)"
       year: 2025
       description:
         - "J. Zhu, G. Xu, et al."
-        - DOI: <a href="https://doi.org/10.14778/3749646.3749721">https://doi.org/10.14778/3749646.3749721</a>
-        - Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>
+        - 'DOI: <a href="https://doi.org/10.14778/3749646.3749721">https://doi.org/10.14778/3749646.3749721</a>'
+        - 'Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>'
 
 - title: Skills
   type: nested_list
@@ -93,4 +90,4 @@
         - PostgreSQL (pgvector), MongoDB, Redis
     - title: Frameworks and Tools
       items:
-        - Docker, Git, gRPC, Node.js, Next.js, Django, React, Optuna, Jupyter, YOLOv8, AWS, LangGraph
+        - Docker, Git, gRPC, Node.js, Next.js, Django, React, Optuna, Jupyter, AWS, LangGraph

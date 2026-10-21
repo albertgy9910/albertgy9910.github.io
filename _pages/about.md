@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Student @ UC Riverside | ML Systems Reliability</a>
+subtitle: <a href='#'>PhD Student @ UC Riverside | Testing & Reliability of Deep Learning Compilers and AI Systems</a>
 
 profile:
   align: right
@@ -15,17 +15,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **Prof. Qian Zhang**. My research focuses on **ML systems reliability**, **data-centric AI**, and **governance**—building frameworks that make ML/data pipelines more robust, transparent, and trustworthy.
+I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **Prof. Qian Zhang**. My research focuses on **software engineering for machine learning**, especially the **testing and reliability of deep learning compilers and AI systems**.
 
-I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.88/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
+I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.87/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
 
-Previously, I worked as a **Software Engineer** at **Fuyao Glass America**, fine-tuning YOLOv8 for inline automotive-glass inspection (mAP@0.5 ≈ 0.87, >90% recall) and shipping production analytics. I was also a Software Engineer at **4Pexonic** and a Research Engineer at the **UCSD Halıcıoğlu Data Science Institute** (HDSI), where I co-authored research on stress-testing ML pipelines.
+Previously, I was a **Manufacturing Data Analyst** at **Fuyao Glass America**, building Python/SQL data pipelines and production monitoring jobs, and a **Back-end Engineer** at **4Pexonic**. Before that, I was a Research Engineer at the **UCSD Halıcıoğlu Data Science Institute** (HDSI), where I co-authored research on stress-testing ML pipelines (VLDB 2026).
 
 My research interests include:
 
-- **ML Systems Reliability**: Systematic approaches to monitoring and explaining ML system failures.
+- **Deep Learning Compiler Testing**: Systematically testing deep learning compilers for correctness and robustness bugs.
+- **Reliability of AI Systems**: Making ML and AI systems behave predictably, and explaining why they fail.
 - **Data-Centric Robustness**: Stress-testing ML pipelines with adversarial data corruption.
-- **Data Provenance**: Tracking and managing data quality in complex streaming systems.
 
 ### Research Philosophy
 
