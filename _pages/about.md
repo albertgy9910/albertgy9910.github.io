@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **Prof. Qian Zhang**. My research focuses on **software engineering for machine learning**, especially the **testing and reliability of deep learning compilers and AI systems**.
+I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **[Prof. Qian Zhang](https://www.cs.ucr.edu/~qzhang/)**. My research focuses on **software engineering for machine learning**, especially the **testing and reliability of deep learning compilers and AI systems**.
 
 I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.87/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
 
