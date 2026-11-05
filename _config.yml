@@ -7,12 +7,11 @@ first_name: Albert
 middle_name: Geyang
 last_name: Xu
 email: gxu048@ucr.edu
-description: PhD Student at UC Riverside | Testing & Reliability of Deep Learning Compilers and AI Systems
+description: Ph.D. Student at UC Riverside | Agentic Software Engineering and Reliability of AI Systems
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Geyang Xu, Albert Xu, UC Riverside, PhD, Software Engineering for Machine Learning, Deep Learning Compilers, Software Testing, AI Systems Reliability
+keywords: Geyang Xu, Albert Xu, UC Riverside, Qian Zhang, RIPLE, PhD, Agentic Software Engineering, Coding Agents, Software Testing, AI Systems Reliability
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -132,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Albert Xu # blog_name will be displayed in your blog page
-blog_description: Notes on data-centric AI, ML reliability, and systems.
+blog_description: Notes on agentic software engineering and the reliability of AI systems.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -362,7 +361,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

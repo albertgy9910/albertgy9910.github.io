@@ -5,8 +5,6 @@
       value: Albert (Geyang) Xu
     - name: Email
       value: gxu048@ucr.edu
-    - name: Phone
-      value: +1 858-568-6771
     - name: Website
       value: <a href="https://albertgy9910.github.io">albertgy9910.github.io</a>
     - name: Location
@@ -15,39 +13,67 @@
 - title: Research Interests
   type: list
   contents:
-    - Testing & reliability of deep learning compilers
-    - Reliability of AI systems
+    - Long-horizon agentic software engineering
+    - Testing and reliability of AI coding agents
     - Software engineering for machine learning
-    - Data-centric robustness of ML pipelines
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
       institution: University of California, Riverside
-      year: 2026.09 - 2029.06 (expected)
+      year: 2026 – Present
       description:
-        - "Software Engineering for Machine Learning"
         - 'Advisor: <a href="https://www.cs.ucr.edu/~qzhang/">Prof. Qian Zhang</a>'
+        - "Expected 2029"
 
     - title: Master of Science in Computer Science
       institution: University of California, San Diego
-      year: 2022.09 - 2024.03
+      year: 2022 – 2024
       description:
         - "GPA: 3.87/4.0"
 
     - title: Bachelor of Science in Computer Science
       institution: University of Liverpool, UK
-      year: 2018.09 - 2022.06
+      year: 2018 – 2022
       description:
         - "GPA: 3.93/4.0 (top 3%)"
 
-- title: Experience
+- title: Publications
+  type: time_table
+  contents:
+    - title: "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code"
+      institution: "Under review at SANER 2027"
+      year: 2026
+      description:
+        - "H. Zhu, G. Xu, Z. Yang, J. Wang, Q. Zhang"
+        - 'arXiv: <a href="https://arxiv.org/abs/2610.38244">https://arxiv.org/abs/2610.38244</a>'
+
+    - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption"
+      institution: "VLDB 2026, PVLDB 18(11)"
+      year: 2025
+      description:
+        - "J. Zhu, G. Xu, F. Lorenzi, B. Glavic, B. Salimi"
+        - 'ACM: <a href="https://dl.acm.org/doi/10.14778/3749646.3749721">https://dl.acm.org/doi/10.14778/3749646.3749721</a>'
+        - 'Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>'
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Engineer
+      institution: UCSD Halıcıoğlu Data Science Institute
+      year: 2023 – 2024
+      description:
+        - 'Advisor: <a href="https://bsalimi.github.io/">Prof. Babak Salimi</a>'
+        - "Built the error-injection pipeline of a black-box ML stress tester (beam search + Optuna Bayesian optimization)."
+        - "Co-authored SAVAGE, published in PVLDB 18(11) / VLDB 2026."
+
+- title: Professional Experience
   type: time_table
   contents:
     - title: Manufacturing Data Analyst
       institution: Fuyao Glass America Inc.
-      year: 2025.10 - 2026.04
+      year: 2025 – 2026
       description:
         - "Built Python/SQL pipelines that fuse machine and inspection-system data with coating and tempering signals."
         - "Productionized the pipelines as cron jobs with alerts and access control: 99.3% job success, 2.4 hrs/week less downtime."
@@ -55,29 +81,11 @@
 
     - title: Back-end Engineer
       institution: 4Pexonic Inc.
-      year: 2024.10 - 2025.10
+      year: 2024 – 2025
       description:
         - "Developed an academic impact analysis platform mining citation patterns across tens of thousands of records using Node.js, MongoDB, and Next.js with Docker, serving university researchers and policy institutions."
         - "Built two-tier caching (in-process LRU + Redis), cutting median and p95 latency by 40%."
         - "Integrated gRPC microservices; implemented bcrypt/session auth and Nginx TLS."
-
-    - title: Research Engineer
-      institution: UCSD Halıcıoğlu Data Science Institute
-      year: 2023.10 - 2024.10
-      description:
-        - "Built the error-injection pipeline of a black-box ML stress tester (beam search + Optuna Bayesian optimization)."
-        - "Benchmarked 8 data-cleaning, 4 debiasing, and 2 uncertainty-quantification methods; at 10% corruption the framework cut AUC to 0.58 vs. 0.79–0.85 for random corruption and gradient-based poisoning."
-
-- title: Publications
-  type: time_table
-  contents:
-    - title: "Stress-Testing ML Pipelines with Adversarial Data Corruption"
-      institution: "VLDB 2026, PVLDB 18(11)"
-      year: 2025
-      description:
-        - "J. Zhu, G. Xu, et al."
-        - 'DOI: <a href="https://doi.org/10.14778/3749646.3749721">https://doi.org/10.14778/3749646.3749721</a>'
-        - 'Code: <a href="https://github.com/lodino/savage">https://github.com/lodino/savage</a>'
 
 - title: Skills
   type: nested_list
@@ -85,9 +93,6 @@
     - title: Languages
       items:
         - Python, Java, Go, SQL, C/C++, JavaScript, R
-    - title: Databases
-      items:
-        - PostgreSQL (pgvector), MongoDB, Redis
     - title: Frameworks and Tools
       items:
-        - Docker, Git, gRPC, Node.js, Next.js, Django, React, Optuna, Jupyter, AWS, LangGraph
+        - Docker, Git, PyTorch, Optuna, LangGraph, Jupyter

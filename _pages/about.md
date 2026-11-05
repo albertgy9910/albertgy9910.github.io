@@ -2,37 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Student @ UC Riverside | Testing & Reliability of Deep Learning Compilers and AI Systems</a>
+subtitle: Ph.D. Student in Computer Science, UC Riverside
 
 profile:
   align: right
   image: albert.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Computer Science and Engineering</p>
+    <p>University of California, Riverside</p>
+    <p><a href="mailto:gxu048@ucr.edu">gxu048@ucr.edu</a></p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Albert (Geyang) Xu, a Ph.D. student in Computer Science at **UC Riverside**, advised by **[Prof. Qian Zhang](https://www.cs.ucr.edu/~qzhang/)**. My research focuses on **software engineering for machine learning**, especially the **testing and reliability of deep learning compilers and AI systems**.
+I am **Geyang (Albert) Xu**, a Ph.D. student in Computer Science at the [University of California, Riverside](https://www.cs.ucr.edu/), advised by [Prof. Qian Zhang](https://www.cs.ucr.edu/~qzhang/).
 
-I hold a Master's degree in Computer Science from **UC San Diego** (GPA: 3.87/4.0) and a Bachelor's degree from the University of Liverpool (GPA: 3.93/4.0).
+My research is at the intersection of **software engineering** and **AI**. I study how AI coding agents evolve, maintain, and modify existing software—especially when past implementation decisions conflict with new task intent. The goal is to make long-horizon, agentic software engineering more reliable: agents should preserve existing functionality, follow the intended design, and keep the resulting code maintainable as repositories change.
 
-Previously, I was a **Manufacturing Data Analyst** at **Fuyao Glass America**, building Python/SQL data pipelines and production monitoring jobs, and a **Back-end Engineer** at **4Pexonic**. Before that, I was a Research Engineer at the **UCSD Halıcıoğlu Data Science Institute** (HDSI), where I co-authored research on stress-testing ML pipelines (VLDB 2026).
+I received an M.S. in Computer Science from **UC San Diego** and a B.S. from the **University of Liverpool**. At UCSD I worked with [Prof. Babak Salimi](https://bsalimi.github.io/) on stress-testing machine learning pipelines under adversarial data corruption, published in **PVLDB / VLDB 2026**.
 
-My research interests include:
+<div style="clear: both;"></div>
 
-- **Deep Learning Compiler Testing**: Systematically testing deep learning compilers for correctness and robustness bugs.
-- **Reliability of AI Systems**: Making ML and AI systems behave predictably, and explaining why they fail.
-- **Data-Centric Robustness**: Stress-testing ML pipelines with adversarial data corruption.
+### Research Interests
 
-### Research Philosophy
-
-At Fuyao, I spent my days building analytics layers, designing experiments, and monitoring production to make our data systems transparent, stable, and traceable. At 4Pexonic, I witnessed the other side of the data lifecycle—how large-scale bibliographic data is collected, cached, and aggregated to produce metrics like "research impact" and "disciplinary trends." There, technical decisions like caching strategies and latency handling directly shaped how the academic ecosystem was perceived.
-
-These experiences reinforced a common theme: engineering roles are often about executing within existing rules and standards. I can optimize a coating line’s data pipeline or tune an analytics platform for low latency, but I have little influence over _how_ we evaluate and govern these systems in the first place.
-
-What truly fascinates me is not just maintaining stability, but defining the general frameworks for reliability and governance in the next generation of ML and data pipelines. How should we describe and inject data errors? How do we perform systematic stress testing on complex pipelines? How do we translate these results into evidence that engineers, stakeholders, and regulators can trust?
-
-These questions go far beyond individual engineering practice; they require systematic research and community consensus. Pursuing a Ph.D. is my path from executing existing standards to helping define them.
+- **Long-horizon agentic software engineering**: how coding agents evolve existing repositories, and when they follow repository precedent versus new task intent
+- **Testing and reliability of AI systems**: systematic evaluation of agentic coding systems as they maintain and modify software
+- **Software engineering for machine learning**: robustness and reliability of ML pipelines and data workflows

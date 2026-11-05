@@ -10,6 +10,20 @@ table.table-cv {
   background-color: transparent !important;
 }
 
+.cv-date {
+  flex: 0 0 8.5rem;
+  max-width: 8.5rem;
+  padding-right: 0.75rem;
+
+  .badge {
+    white-space: normal;
+    line-height: 1.25;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
