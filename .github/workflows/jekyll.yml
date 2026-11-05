@@ -7,11 +7,8 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
+  # Disabled on push so it does not race al-folio's gh-pages deploy.
+  # The live site is published from the gh-pages branch by deploy.yml.
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
