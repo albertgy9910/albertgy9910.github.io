@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Ph.D. Student in Computer Science, UC Riverside
+pronunciation: Pronounced "Guh-yahng Shoo" — feel free to call me Albert.
 
 profile:
   align: right

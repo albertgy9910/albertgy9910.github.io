@@ -11,6 +11,9 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
+    {% if page.pronunciation %}
+      <p class="name-pronunciation">{{ page.pronunciation }}</p>
+    {% endif %}
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
